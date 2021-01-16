@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# XB24CAWIT-001-dk_RF-Transceiver-Modules
+#
+DEF XB24CAWIT-001-dk_RF-Transceiver-Modules MOD 0 40 Y Y 1 F N
+F0 "MOD" -607 544 60 H V L CNN
+F1 "XB24CAWIT-001-dk_RF-Transceiver-Modules" -65 -553 60 H V L CNN
+F2 "digikey-footprints:XBEE-20_THT" 200 200 60 H I L CNN
+F3 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" 200 300 60 H I L CNN
+F4 "602-1891-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "XB24CAWIT-001" 200 500 60 H I L CNN "MPN"
+F6 "RF/IF and RFID" 200 600 60 H I L CNN "Category"
+F7 "RF Transceiver Modules" 200 700 60 H I L CNN "Family"
+F8 "https://www.digi.com/resources/documentation/digidocs/pdfs/90001500.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/digi-international/XB24CAWIT-001/602-1891-ND/6010100" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "RF TXRX MOD 802.15.4  WIRE ANT" 200 1000 60 H I L CNN "Description"
+F11 "Digi International" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -600 500 600 -500 0 1 0 f
+X Vcc 1 0 600 100 D 50 50 1 1 W
+X GND 10 -100 -600 100 U 50 50 1 1 W
+X AD4/DIO4 11 700 0 100 L 50 50 1 1 B
+X DIO7/~CTS 12 700 -100 100 L 50 50 1 1 B
+X ON/~SLEEP 13 700 -200 100 L 50 50 1 1 O
+X VREF 14 -700 0 100 R 50 50 1 1 I
+X AD5/DIO5 15 700 -300 100 L 50 50 1 1 B
+X AD6/DIO6/~RTS 16 700 -400 100 L 50 50 1 1 B
+X AD3/DIO3 17 -700 -400 100 R 50 50 1 1 B
+X AD2/DIO2 18 -700 -300 100 R 50 50 1 1 B
+X AD1/DIO1 19 -700 -200 100 R 50 50 1 1 B
+X DOUT 2 700 400 100 L 50 50 1 1 O
+X AD0/DIO0 20 -700 -100 100 R 50 50 1 1 B
+X DIN/Config 3 -700 400 100 R 50 50 1 1 I
+X DO8 4 700 300 100 L 50 50 1 1 O
+X ~Reset 5 -700 300 100 R 50 50 1 1 I
+X PWM0/RSSI 6 700 200 100 L 50 50 1 1 O
+X PWM1 7 700 100 100 L 50 50 1 1 O
+X Reserved 8 -600 200 100 R 50 50 1 1 N N
+X DTR/SLRQ/DI8 9 -700 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
